@@ -1,0 +1,677 @@
+body{
+    margin: 0;
+    padding-left: 0;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px,20px;
+    position: absolute;
+    width: 100%;
+    top:45px;
+    
+}
+.nav-right{
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 95px;
+}
+.nav-right i{
+    margin-left: 30px;
+}
+.nav-left{
+    font-size: 30px;
+    margin-left: 95px;
+}
+.nav-logo{
+    margin-left: 70px;
+    width: 100px;
+}
+.main-section{
+    width: 100%;
+}
+.background-video{
+    width: 100%;
+}
+.overlay-text{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    align-items: center;
+}
+.overlay-text h1{
+    font-size: 2em;
+    margin-left: -45%;
+    color: white;
+    font-family: FF DIN, sans-serif;
+}
+.button button{
+    position: absolute;
+    top: 78%;
+    left: 47%;
+    color: #fff;
+    background-color: black;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: #b70826;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+    
+}
+.menu a{
+    text-decoration: none;
+    margin: 0 160px;
+    font-size: 20px;
+    color: black;
+    font-family: FF DIN, sans-serif;
+}
+.menu a:hover{
+    color: grey;
+}
+.news{
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+.news h2{
+    margin-top: 170px;
+    font-size: 32px;
+    font-weight: lighter;
+    font-family: FF DIN, sans-serif;
+    color: rgb(48, 46, 46);
+}
+.news-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+.news-item{
+    width: 30%;
+    text-align: left;
+    margin-left: 100px;
+}
+.news-item-3{
+    width: 30%;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.news-item img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.news-item h4{
+    font-size: 19p;
+    font-weight: bold;
+    font-family: FF DIN, sans-serif;
+    margin-bottom: 10px;
+}
+.news-item p{
+    font-size: 16px;
+    font-family: FF DIN, sans-serif;
+    color: #666;
+}
+.news-item-3 img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.news-item-3 h4{
+    font-size: 19p;
+    font-weight: bold;
+    font-family: FF DIN, sans-serif;
+    margin-bottom: 10px;
+}
+.news-item-3 p{
+    font-size: 16px;
+    font-family: FF DIN, sans-serif;
+    color: #666;
+}
+.news-more{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.news-more button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: FF DIN, sans-serif;
+    cursor: pointer;
+}
+.news-more button:hover{
+    background-color: rgb(155, 32, 32);
+}
+.poster{
+    width: 100%;
+}
+.poster-image{
+    width: 100%;
+}
+.watch-more{
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: -160px;
+}
+.watch-more button{
+    background-color: #fff;
+    color:black;
+    padding: 15px 30px;
+    font-family: FF DIN, sans-serif;
+    cursor: pointer;
+    border: none;
+}
+.watch-more button:hover{
+    background-color: rgb(155, 32, 32);
+    color: #fff;
+}
+.acces h3{
+    font-family: FF DIN, sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+    margin-left: 100px;
+}
+.acces h4{
+    font-family: FF DIN, sans-serif;
+    font-size: 21px;
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-top: -15px;
+}
+.container-accesories{
+    display: flex;
+    align-items: center;
+}
+.accessories{
+    width: 30%;
+    margin-bottom: 30px;
+}
+.accessories img{
+    width: 90%;
+    margin-left: 110px;
+    cursor: pointer;
+}
+.accessories h4{
+    margin-left: 110px;
+    font-family: FF DIN, sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+.accessories p{
+    margin-left: 110px;
+    font-family: FF DIN, sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    color: #666;
+    cursor: pointer;
+}
+.accessories p:hover{
+    color: #ccc;
+}
+
+.g-wagon{
+    display: flex;
+}
+.g-wagon-image{
+    width: 50%;
+}
+.g-wagon-image img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.g-wagon-image h2{
+    font-size: 30px;
+    font-family: FF DIN, sans-serif;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: -156px;
+    cursor: pointer;
+}
+.g-wagon-image .lower-text{
+    font-size: 28px;
+    font-family: FF DIN, sans-serif;
+    font-weight: lighter;
+    margin-left: 307px;
+    margin-top: -26px;
+    cursor: pointer;
+}
+
+.E-class{
+    width: 100%;
+    position: relative;
+
+}
+.brabus-E{
+    width: 100%;
+    height: 100%;
+}
+.overlay-Eclass{
+    position: absolute;
+    top: 75%;
+    left: 35%;
+}
+.overlay-Eclass h2{
+    color: #fff;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+    font-family: FF DIN, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.overlay-Eclass p{
+    color: #fff;
+    letter-spacing: 1.92px;
+    font-family: FF DIN, sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    margin-left: 110px;
+    margin-bottom: 39px;
+    cursor: pointer;
+}
+.overlay-Eclass button{
+    padding: 13px 30px;
+    font-family: FF DIN, sans-serif;
+    margin-left: 188px;
+    border: none;
+    cursor: pointer;
+}
+.overlay-Eclass button:hover{
+    background-color: rgb(170, 14, 14);
+    color: #fff;
+}
+
+.cars-list{
+    width: 100%;
+}
+.cars-list h3{
+    font-family: FF DIN, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 111px;
+    padding: 24px 0px;
+}
+.container-cars{
+    display: flex;
+    align-items: center;
+}
+.cars{
+    width: 35%;
+}
+.cars img{
+    width: 97%;
+    margin-left: 10px;
+}
+.cars h4{
+    margin-left: 10px;
+     font-family: FF DIN, sans-serif;
+     font-size: 19px;
+}
+.cars p{
+    margin-left: 10px;
+    font-family: FF DIN, sans-serif;
+    color: #666;
+    margin-bottom: 25px;
+    margin-top: -14px;
+    cursor: pointer;
+}
+.cars p:hover{
+    color: rgb(47, 46, 46);
+}
+
+.social-media{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.social{
+    width: 45%; 
+    
+}
+
+.social-overlay{
+    position: absolute;
+    top: 45%;
+    left: 23%;
+    color: #fff;
+    cursor: pointer;
+}
+.social-overlay2{
+    position: absolute;
+    top: 78%;
+    left: 73%;
+    color: black;
+    cursor: pointer;
+}
+.social-overlay h2{
+    font-family: FF DIN, sans-serif;
+    font-weight: lighter;
+}
+.social-overlay p{
+    font-family: FF DIN, sans-serif;
+    font-weight: lighter;
+    font-size: 19px;
+    margin-left: -21px;
+    margin-top: -15px;
+}
+.social-overlay2 h2{
+    font-family: FF DIN, sans-serif;
+    font-weight: lighter;
+    color: #2d2929;
+    margin-left: -50px;
+}
+.social-overlay2 p{
+    font-family: FF DIN, sans-serif;
+    font-weight: lighter;
+    font-size: 19px;
+    margin-left: -75px;
+    margin-top: -15px;
+    color: #2d2929;
+}
+
+.brabus-smart{
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-top: -5px;
+}
+
+.smart-picture img{
+    width: 100%;
+}
+.overlay-smart{
+    position: absolute;
+    top: 9%;
+    left: 6%;
+    color: black;
+    cursor: pointer;
+}
+.overlay-smart h2{
+    font-family: FF DIN, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #313030;
+}
+.overlay-smart p{
+    font-family: FF DIN, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #666;
+    margin-top: -20px;
+}
+
+.collab{
+    display: flex;
+    position: relative;
+    margin-top: -5px;
+}
+.ktm{
+    width: 50%;
+}
+.ktm img{
+    width: 100%;
+}
+.overlay-collab{
+    position: absolute;
+    top: 74%;
+    left: 19%;
+    color: #fff;
+    cursor: pointer;
+}
+.overlay-collab2{
+    position: absolute;
+    top: 74%;
+    left: 69%;
+    color: #fff;
+    cursor: pointer;
+}
+.collab-button button{
+    position: absolute;
+    top: 81%;
+    left: 19%;
+    color: black;
+    background-color: #fff;
+    border: none;
+    padding: 15px 30px;
+}
+.collab-button2 button{
+    position: absolute;
+    top: 81%;
+    left: 71%;
+    color: black;
+    background-color: #fff;
+    border: none;
+    padding: 15px 30px;
+}
+.overlay-collab h2{
+    font-family: FF DIN, sans-serif;
+    font-weight: normal;
+    margin-left: -1px;
+}
+.overlay-collab2 h2{
+    font-family: FF DIN, sans-serif;
+    font-weight: normal;
+    margin-left: -1px;
+}
+.collab-button button:hover{
+    background-color: crimson;
+    color: #fff;
+}
+.collab-button2 button:hover{
+    background-color: crimson;
+    color: #fff;
+}
+
+.classics{
+    position: relative;
+    margin-top: -6px;
+}
+.classic-image img{
+    width: 100%;
+}
+.overlay-classic{
+    position: absolute;
+    top: 77%;
+    left: 6%;
+    color: #fff;
+    cursor: pointer;
+}
+.classics-button button{
+    position: absolute;
+    top: 84%;
+    left: 6%;
+    color: black;
+    background-color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.overlay-classic h2{
+    font-family: FF DIN, sans-serif;
+    font-weight: normal;
+}
+.classics-button button:hover{
+    background-color: crimson;
+    color: #fff;
+}
+.tunning{
+    margin: 65px 110px;
+}
+.text-1 h2{
+    font-family: FF DIN, sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+}
+.text-2 h3{
+    font-family: FF DIN, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    margin-top: -17px;
+}
+
+.tuning-program{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.tuning-image{
+    width: 30%;
+}
+.tuning-image img{
+    width: 100%;
+    color: #666;
+    margin-left: 75px;
+    background-color: #f5f5f5;
+}
+.tuning-image h4{
+    margin-left: 85px;
+    font-size: 18px;
+    font-family: FF DIN, sans-serif;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.collection{
+    position: relative;
+}
+.store img{
+    width: 100%;
+}
+.store-overlay{
+    position: absolute;
+    top: 77%;
+    right: 6%;
+    color: #fff;
+    cursor: pointer;
+}    
+.store button{
+    position: absolute;
+    top: 84%;
+    right: 6%;
+    color: black;
+    background-color: #fff;
+    border: none;
+    padding: 14px 30px;
+    cursor: pointer;
+}
+.store-overlay h2{
+    font-family: FF DIN, sans-serif;
+    font-weight: normal;
+}
+.store button:hover{
+    background-color: crimson;
+    color: #fff;
+}
+
+.brabus-news{
+    position: relative;
+    margin-top: -3px;
+}
+.news-image img{
+    width: 100%;
+}
+.update-overlay{
+    position: absolute;
+    top: 45%;
+    left: 38%;
+    color: #fff;
+    cursor: pointer;
+}
+.news-button button{
+    position: absolute;
+    top: 41%;
+    left: 48%;
+    color: black;
+    background-color: white;
+    padding: 14px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.update-overlay span{
+    font-size: 17px;
+    font-family: FF DIN, sans-serif;
+}
+.news-button button:hover{
+    background-color: crimson;
+    color: #fff;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+}
+.footer-tag{
+    display: flex;
+    padding: 40px 70px;
+    text-align: center;
+    
+}
+.portion-1{
+    width: 25%;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.portion-2{
+    width: 25%;
+    margin-left: 70px;
+    text-align: center;
+}
+.portion-3{
+    width: 25%;
+    margin-left: 70px;
+}
+.portion-4{
+    width: 25%;
+    margin-left: 70px;
+}
+.portion-1 p,.portion-2 p,.portion-3 p,.portion-4 p{
+    font-family: FF DIN, sans-serif;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: normal;
+    color:#666;
+    cursor: pointer;
+}
+.portion-1 p:hover{
+    color: #b70826;
+}
+.portion-2 p:hover{
+    color: #b70826;
+}
+.portion-3 p:hover{
+    color: #b70826;
+}
+.portion-4 p:hover{
+    color: #b70826;
+}
+.portion-1 i,.portion-2 i,.portion-3 i,.portion-4 i{
+    font-size: 35px;
+    cursor: pointer;
+}
+.portion-1 i:hover,.portion-2 i:hover,.portion-3 i:hover,.portion-4 i:hover{
+    color: #b70826;
+}
+.portion-1 h4,.portion-2 h4,.portion-3 h4,.portion-4 h4{
+    font-family: FF DIN, sans-serif;
+    font-weight: normal;
+    color: #666;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.portion-1 h4:hover,.portion-2 h4:hover,.portion-3 h4:hover,.portion-4 h4:hover{
+    color: #b70826;
+}
